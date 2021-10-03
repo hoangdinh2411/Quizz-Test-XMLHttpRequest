@@ -1,0 +1,84 @@
+{
+  "myQuestions": [
+    {
+      "id": 1,
+      "question": "Has he never ... beer?",
+      "answers": {
+        "A": "drank",
+        "B": "drink",
+        "C": "drunk"
+      },
+      "correctAnswer": "C"
+    },
+    {
+      "id": 2,
+      "question": "He did a parachute ... out of a helicopter",
+      "answers": {
+        "A": "fall",
+        "B": "jump",
+        "C": "climp"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 3,
+      "question": "Have they ...a lot?",
+      "answers": {
+        "A": "travelled",
+        "B": "travellinng",
+        "C": "travel"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 4,
+      "question": "There's nothing special about him. In fact, he's very ...",
+      "answers": {
+        "A": "normal",
+        "B": "special",
+        "C": "smart"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 5,
+      "question": "Has he never ... opera?",
+      "answers": {
+        "A": "listened",
+        "B": "listen",
+        "C": "listening"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 6,
+      "question": "She ... to study English",
+      "answers": {
+        "A": "decided",
+        "B": "decid",
+        "C": "decision"
+      },
+      "correctAnswer": "A"
+    },
+    {
+      "id": 7,
+      "question": "Have they ...for the school football team?",
+      "answers": {
+        "A": "pick",
+        "B": "picked",
+        "C": "picking"
+      },
+      "correctAnswer": "B"
+    },
+    {
+      "id": 8,
+      "question": "Loock ! She is ... ",
+      "answers": {
+        "A": "beautyful",
+        "B": "kind",
+        "C": "crazy"
+      },
+      "correctAnswer": "A"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="admin-wrapper">
+        <div id="quizz-test-form">
+            <h1 id="admin-heading">Add / Edit / Delete questions </h1>
+            <span id="message"></span>
+            <div class="input-boxes">
+                <span> Questions :</span> <input type="text" name="question" id="question" class="input-box">
+            </div>
+            <div class="input-boxes">
+               <span> Answer A :</span> <input type="text" name="A" id="answer-A" class="input-box">
+            </div>
+            <div class="input-boxes">
+               <span> Answer B :</span> <input type="text" name="B" id="answer-B" class="input-box">
+            </div>
+            <div class="input-boxes">
+               <span> Answer C :</span> <input type="text" name="C" id="answer-C" class="input-box">
+            </div>
+            <div class="input-boxes">
+                <span>Correct answer :</span> <input type="text" name="correctAnswer" id="correct-answer" class="input-box">
+            </div>
+            <div class="input-boxes">
+                <input type="submit" value="Add" class="btn btn-admin btn-add active">
+                <input type="submit" value="Edit" class="btn btn-admin btn-edit ">
+                <input type="submit" value="Clear" class="btn btn-admin btn-clear">
+                <a href="index.html" class="btn btn-user">Go To Client</a>
+            </div>
+        </div>
+        <div class="question-container">
+            <h1 id="admin-heading">Questions</h1>
+            <ul class="questions-list">
+                 <!-- <li class="openAnswers">
+                    <span class="delete"></span>
+                    <span class="edit"></span>
+                    <ul class="answers-list">
+                        <li class="answer">
+                        </li>
+                    </ul>
+                </li>  -->
+            </ul>
+        </div>
+       
+    </div>
+    <!-- <script src="admin.js"></script> -->
+    <script src="adminNotUsingPostman.js"></script>
+    <!-- <script src="adminPost.js"></script> -->
+</body>
+</html>
